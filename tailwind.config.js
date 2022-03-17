@@ -13,7 +13,7 @@ module.exports = {
       "light-mode-1": "#1C658C",
       "light-mode-2": "#398AB9",
       "light-mode-3": "#D8D2CB",
-      "light-mode-4": "#DADADA",
+      "light-mode-4": "#EEEEEE",
       black: "#000000",
       white: "#FFFFFF",
     },
