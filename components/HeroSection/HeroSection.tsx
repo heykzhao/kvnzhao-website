@@ -1,13 +1,13 @@
 import type { NextPage } from "next";
 
 interface ChildProps {
-  darkMode: string;
+  darkMode: boolean;
 }
 
 const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
   return (
-    <div className={darkMode}>
-      <div className="dark:bg-dark-mode-1">Hero Section</div>
+    <div className={darkMode ? "dark" : ""}>
+      <div className="bg-light-mode-1 dark:bg-dark-mode-1">Hero Section</div>
     </div>
   );
 };
