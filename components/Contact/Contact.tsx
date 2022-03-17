@@ -1,9 +1,13 @@
 import type { NextPage } from "next";
 
-const Contact: NextPage = () => {
+interface ChildProps {
+  darkMode: boolean;
+}
+
+const Contact: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
   return (
-    <div className="dark">
-      <div className="dark:bg-dark-mode-1">Hero Section</div>
+    <div className={darkMode ? "dark" : ""}>
+      <div className="bg-black">Contacts</div>
     </div>
   );
 };
