@@ -25,7 +25,7 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
             👋🏻{" "}
             <span>
               Hey! I&apos;m{" "}
-              <span className="underline decoration-light-mode-4 decoration-wavy dark:decoration-dark-mode-4">
+              <span className="text-light-mode-4 dark:text-dark-mode-4">
                 Kevin Zhao
               </span>
               .
