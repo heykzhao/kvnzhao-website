@@ -61,6 +61,9 @@ const Header: NextPage<ChildProps> = ({
               layout="responsive"
             />
           </div>
+          <span className="select-none pl-2 text-2xl font-black text-light-mode-1 dark:text-dark-mode-1">
+            kvnzhao
+          </span>
         </div>
         <div>
           <div className="absolute inset-y-0 right-0 hidden items-center p-3 md:flex">
