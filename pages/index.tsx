@@ -4,7 +4,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 
 import Header from "../components/Header";
-import HeroSection from "../components/HeroSection";
+import HomeHeroSection from "../components/HomeHeroSection";
 
 const Home: NextPage = () => {
   const [darkMode, setDarkMode] = useState<boolean>(true);
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header darkMode={darkMode} setDarkMode={setDarkMode} />
-      <HeroSection darkMode={darkMode} />
+      <HomeHeroSection darkMode={darkMode} />
     </div>
   );
 };
