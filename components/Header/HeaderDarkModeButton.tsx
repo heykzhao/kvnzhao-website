@@ -13,13 +13,25 @@ const HeaderDarkModeButton: NextPage<ChildProps> = ({
   darkMode,
   setDarkMode,
 }: ChildProps) => {
-  setDarkMode;
+  function handleChange() {
+    setDarkMode((prevValue) => !prevValue);
+
+    if (typeof window === "undefined") {
+      return;
+    }
+
+    if (darkMode === false) {
+      localStorage.setItem("dark-mode", "dark-mode");
+    } else if (darkMode === true) {
+      localStorage.setItem("dark-mode", "light-mode");
+    }
+  }
 
   return (
     <div className="p-3">
       <Switch
         checked={darkMode}
-        onChange={setDarkMode}
+        onChange={handleChange}
         className={`${
           darkMode ? "bg-dark-mode-1" : "bg-light-mode-1"
         } relative inline-flex h-10 w-16 items-center rounded-full`}

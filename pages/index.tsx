@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
 
@@ -9,6 +9,13 @@ import Contact from "../components/Contact";
 
 const Home: NextPage = () => {
   const [darkMode, setDarkMode] = useState<boolean>(true);
+
+  useEffect(() => {
+    const darkModeCookie = window.localStorage.getItem("dark-mode");
+    if (darkModeCookie === "light-mode") {
+      setDarkMode(false);
+    }
+  }, []);
 
   return (
     <div>
