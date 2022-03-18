@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Link from "next/link";
 import Image from "next/image";
 
-import kvnLogoWhite from "./images/kvn-logo-white.svg";
+import kvnLogoWhite from "./images/kvn_logo_white.png";
 
 interface ChildProps {
   darkMode: boolean;

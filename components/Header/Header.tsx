@@ -13,8 +13,8 @@ import { MenuAlt3Icon } from "@heroicons/react/solid";
 import { XIcon } from "@heroicons/react/solid";
 
 // Images
-import kvnLogoDark from "../Header/images/kvn_logo_dark.svg";
-import kvnLogoLight from "../Header/images/kvn_logo_light.svg";
+import kvnLogoDark from "../Header/images/kvn_logo_dark.png";
+import kvnLogoLight from "../Header/images/kvn_logo_light.png";
 
 interface ChildProps {
   darkMode: boolean;
