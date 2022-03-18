@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import type { NextPage } from "next";
 import Image from "next/image";
+import Link from "next/link";
 
 // Components
 import HeaderDarkModeButton from "./HeaderDarkModeButton";
@@ -32,7 +33,7 @@ const Header: NextPage<ChildProps> = ({
   const [hamburgerOpen, setHamburgerOpen] = useState<boolean>(false);
 
   const menuItems: MenuLinks[] = [
-    { title: "About", path: "/about" },
+    { title: "Home", path: "/" },
     { title: "Contact", path: "/contact" },
   ];
 
@@ -47,23 +48,27 @@ const Header: NextPage<ChildProps> = ({
           <HeaderDarkModeButton darkMode={darkMode} setDarkMode={setDarkMode} />
         </div>
         <div className="flex items-center pt-2 pb-2">
-          <div className="hidden w-7 dark:block">
-            <Image
-              src={kvnLogoDark}
-              alt="KVN Logo, dark mode"
-              layout="responsive"
-            />
-          </div>
-          <div className="block w-7 dark:hidden">
-            <Image
-              src={kvnLogoLight}
-              alt="KVN Logo, light mode"
-              layout="responsive"
-            />
-          </div>
-          <span className="select-none pl-2 text-2xl font-black text-light-mode-1 dark:text-dark-mode-1">
-            kvnzhao
-          </span>
+          <Link href="/">
+            <a className="flex">
+              <div className="hidden w-7 dark:block">
+                <Image
+                  src={kvnLogoDark}
+                  alt="KVN Logo, dark mode"
+                  layout="responsive"
+                />
+              </div>
+              <div className="block w-7 dark:hidden">
+                <Image
+                  src={kvnLogoLight}
+                  alt="KVN Logo, light mode"
+                  layout="responsive"
+                />
+              </div>
+              <span className="select-none pl-2 text-2xl font-black text-light-mode-1 dark:text-dark-mode-1">
+                kvnzhao
+              </span>
+            </a>
+          </Link>
         </div>
         <div>
           <div className="absolute inset-y-0 right-0 hidden items-center p-3 md:flex">
