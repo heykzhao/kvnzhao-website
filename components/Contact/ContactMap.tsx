@@ -1,7 +1,9 @@
 import type { NextPage } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import ClevelandMap from "./images/cleveland-map.png";
+
+import ClevelandMap from "./images/cleveland_map.png";
+import LocationDot from "./images/location_dot.png";
 
 const ContactLinks: NextPage = () => {
   return (
@@ -13,11 +15,19 @@ const ContactLinks: NextPage = () => {
       <div className="m-auto block w-full pr-2 pl-2 sm:w-96">
         <Link href="https://www.google.com/maps/place/Cleveland,+OH/">
           <a target="_blank" rel="noopener noreferrer">
-            <Image
-              src={ClevelandMap}
-              alt="Map of Cleveland with location pin"
-              layout="responsive"
-            />
+            <div className="relative">
+              <div className="overflow-hidden rounded-3xl">
+                <Image
+                  src={ClevelandMap}
+                  alt="Map of Cleveland with location pin"
+                  layout="responsive"
+                  priority
+                />
+              </div>
+              <div className="absolute top-[55%] left-[46%] animate-bounce">
+                <Image src={LocationDot} alt="Location dot" />
+              </div>
+            </div>
           </a>
         </Link>
       </div>
