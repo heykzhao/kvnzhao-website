@@ -6,19 +6,35 @@ import { MenuLinks } from "./Header";
 
 interface ChildProps {
   menuItems: MenuLinks[];
+  setHamburgerOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const HeaderHamburgerMenu: NextPage<ChildProps> = ({
   menuItems,
+  setHamburgerOpen,
 }: ChildProps) => {
   const menuHamburgerLinks = menuItems.map((item) => {
-    return (
-      <Link href={item.path} key={item.title}>
-        <a className="cursor-pointer pb-10 text-3xl font-black text-light-mode-1 hover:underline hover:decoration-wavy dark:text-dark-mode-1 md:hidden">
+    console.log(location.pathname);
+    if (location.pathname === item.path) {
+      return (
+        <button
+          type="button"
+          onClick={() => setHamburgerOpen(false)}
+          key={item.title}
+          className="cursor-pointer pb-10 text-3xl font-black text-light-mode-1 hover:underline hover:decoration-wavy dark:text-dark-mode-1 md:hidden"
+        >
           {item.title}
-        </a>
-      </Link>
-    );
+        </button>
+      );
+    } else {
+      return (
+        <Link href={item.path} key={item.title}>
+          <a className="cursor-pointer pb-10 text-3xl font-black text-light-mode-1 hover:underline hover:decoration-wavy dark:text-dark-mode-1 md:hidden">
+            {item.title}
+          </a>
+        </Link>
+      );
+    }
   });
 
   return (
