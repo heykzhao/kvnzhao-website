@@ -90,7 +90,14 @@ const Header: NextPage<ChildProps> = ({
           </div>
         </div>
       </div>
-      {hamburgerOpen ? <HeaderHamburgerMenu menuItems={menuItems} /> : <></>}
+      {hamburgerOpen ? (
+        <HeaderHamburgerMenu
+          menuItems={menuItems}
+          setHamburgerOpen={setHamburgerOpen}
+        />
+      ) : (
+        <></>
+      )}
     </div>
   );
 };
