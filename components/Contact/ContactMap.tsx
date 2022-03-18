@@ -6,7 +6,7 @@ import ClevelandMap from "./images/cleveland-map.png";
 const ContactLinks: NextPage = () => {
   return (
     <div className="flex w-full flex-col">
-      <div className="flex w-full items-center pr-3 pl-3 pb-1">
+      <div className="flex w-full items-center pr-3 pl-3 pb-3">
         <p className="pr-2 text-sm font-bold sm:text-lg">Where</p>
         <span className="w-full shrink border-t border-dashed" />
       </div>
