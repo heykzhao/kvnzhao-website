@@ -14,7 +14,6 @@ const HeaderHamburgerMenu: NextPage<ChildProps> = ({
   setHamburgerOpen,
 }: ChildProps) => {
   const menuHamburgerLinks = menuItems.map((item) => {
-    console.log(location.pathname);
     if (location.pathname === item.path) {
       return (
         <button
