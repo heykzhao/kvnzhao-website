@@ -66,7 +66,7 @@ const Footer: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
             </div>
             <div className="flex w-12 items-center pr-8">
               <Link href="/">
-                <a className="text-dark-mode-4">
+                <a>
                   <Image src={kvnLogoWhite} alt="kvn logo in white" />
                 </a>
               </Link>
