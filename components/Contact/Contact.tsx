@@ -15,8 +15,8 @@ const Contact: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
   const contactItems: ContactLinks[] = [
     {
       title: "Email",
-      display_url: "kvnzhao[at]outlook.com",
-      url: "mailto:kvnzhao@outlook.com",
+      display_url: "hello[at]kvnzhao.com",
+      url: "mailto:hello@kvnzhao.com",
     },
     {
       title: "GitHub",
