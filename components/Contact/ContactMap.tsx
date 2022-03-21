@@ -24,12 +24,15 @@ const ContactLinks: NextPage = () => {
                   priority
                 />
               </div>
-              <div className="absolute top-[55%] left-[46%] animate-bounce">
+              <div className="absolute top-[48%] left-[46%] animate-bounce">
                 <Image src={LocationDot} alt="Location dot" />
               </div>
             </div>
           </a>
         </Link>
+        <div className="pt-2 text-right text-sm font-thin">
+          📍 Cleveland, Ohio
+        </div>
       </div>
     </div>
   );
