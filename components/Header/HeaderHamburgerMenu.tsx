@@ -37,7 +37,7 @@ const HeaderHamburgerMenu: NextPage<ChildProps> = ({
   });
 
   return (
-    <div className="fixed z-50 flex h-full w-full flex-col items-center overflow-hidden overscroll-none bg-light-mode-4 pt-10 dark:bg-dark-mode-4 md:hidden">
+    <div className="z-50 flex h-full w-full flex-col items-center overflow-hidden overscroll-none bg-light-mode-4 pt-10 dark:bg-dark-mode-4 md:hidden">
       {menuHamburgerLinks}
     </div>
   );
