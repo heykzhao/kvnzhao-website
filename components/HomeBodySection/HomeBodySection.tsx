@@ -13,7 +13,12 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
           <div className="pb-5 text-center text-3xl font-black uppercase text-light-mode-1 dark:text-white sm:text-4xl">
             About Me
           </div>
-          <div className="pl-2 pr-2 pb-4">
+          <div className="pb-4">
+            {
+              "I'm a chemical engineer, project manager, and self-taught web developer. "
+            }
+          </div>
+          <div className="pb-4">
             {"I was previously a "}
             <span className="font-bold text-light-mode-1  decoration-light-mode-1 dark:text-dark-mode-4 dark:decoration-dark-mode-4">
               Project Engineer
@@ -27,7 +32,7 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
               ", where I lead and managed a $50M portfolio of projects for the North American and West African business units. I also supported a small team on a $60M expansion project for new ventures in Guyana."
             }
           </div>
-          <div className="pl-2 pr-2 pb-4">
+          <div className="pb-4">
             {"Afterwards, I worked on "}
             <span className="font-bold text-light-mode-1  decoration-light-mode-1 dark:text-dark-mode-4 dark:decoration-dark-mode-4">
               Special Projects & Operations
@@ -38,12 +43,12 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
               ", a fast growing vegan meal delivery startup based in Clevealnd. I wore many hats here, including leading the company's site platform from WordPress to Shopify, developing and integrating key processes to ensure continuity of operations during this time, and supporting the co-founders on key growth projects. "
             }
           </div>
-          <div className="pl-2 pr-2 pb-4">
+          <div className="pb-4">
             {
               "More recently, I've had the privilege of taking an extended break to travel, rest, and dive deeper into some personal passions, including web development."
             }
           </div>
-          <div className="pl-2 pr-2 pb-4">
+          <div className="pb-4">
             {"I also have a B.S. in "}
             <span className="font-bold text-light-mode-1  decoration-light-mode-1 dark:text-dark-mode-4 dark:decoration-dark-mode-4">
               Chemical Engineering
@@ -59,7 +64,7 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
             />
             {". "}
           </div>
-          <div className="pl-2 pr-2">
+          <div className="">
             {
               "I hope to leverage my previous Projects & Operations expertise, with my newfound knowledge in Software, to bring value in my next role."
             }
