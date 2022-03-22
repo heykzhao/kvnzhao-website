@@ -42,8 +42,8 @@ const Header: NextPage<ChildProps> = ({
   }
 
   return (
-    <div className={darkMode ? "dark relative" : "relative"}>
-      <div className="relative flex w-screen justify-center bg-light-mode-4 dark:bg-dark-mode-4">
+    <div className={darkMode ? "dark sticky top-0" : "sticky top-0"}>
+      <div className="relative flex w-full justify-center bg-light-mode-4 dark:bg-dark-mode-4">
         <div className="absolute inset-y-0 left-0 flex items-center">
           <HeaderDarkModeButton darkMode={darkMode} setDarkMode={setDarkMode} />
         </div>
