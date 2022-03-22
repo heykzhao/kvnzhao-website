@@ -32,7 +32,7 @@ const Contact: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
   return (
     <div className={darkMode ? "dark" : ""}>
       <div className="flex w-full flex-col items-center bg-black p-10 text-white">
-        <div className="uppercasesm:text-4xl pb-5 text-3xl font-black">
+        <div className="pb-5 text-3xl font-black uppercase sm:text-4xl">
           Contact
         </div>
         <div className="w-full sm:w-96">

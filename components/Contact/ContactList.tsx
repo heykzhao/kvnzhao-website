@@ -18,7 +18,7 @@ const ContactList: NextPage<ChildProps> = ({ contactItems }: ChildProps) => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            className="pl-2 text-sm font-bold decoration-light-mode-4 hover:underline hover:decoration-wavy  dark:decoration-dark-mode-4 sm:text-lg"
+            className="pl-2 text-sm font-bold decoration-light-mode-2 hover:text-light-mode-2 hover:underline hover:decoration-wavy dark:decoration-dark-mode-4 dark:hover:text-dark-mode-4 sm:text-lg"
           >
             {item.display_url}
           </a>

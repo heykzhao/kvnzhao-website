@@ -26,7 +26,7 @@ const Footer: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-black decoration-light-mode-4 decoration-wavy hover:underline dark:decoration-dark-mode-4"
+                    className="font-black decoration-light-mode-2 decoration-wavy hover:text-light-mode-2 hover:underline dark:decoration-dark-mode-4 dark:hover:text-dark-mode-4"
                   >
                     Next.js
                   </a>
@@ -36,7 +36,7 @@ const Footer: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-black decoration-light-mode-4 decoration-wavy hover:underline dark:decoration-dark-mode-4"
+                    className="font-black decoration-light-mode-2 decoration-wavy hover:text-light-mode-2 hover:underline dark:decoration-dark-mode-4 dark:hover:text-dark-mode-4"
                   >
                     Tailwind CSS
                   </a>
@@ -46,7 +46,7 @@ const Footer: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-black decoration-light-mode-4 decoration-wavy hover:underline dark:decoration-dark-mode-4"
+                    className="font-black decoration-light-mode-2 decoration-wavy hover:text-light-mode-2 hover:underline dark:decoration-dark-mode-4 dark:hover:text-dark-mode-4"
                   >
                     TypeScript
                   </a>
@@ -56,7 +56,7 @@ const Footer: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-black decoration-light-mode-4 decoration-wavy hover:underline dark:decoration-dark-mode-4"
+                    className="font-black decoration-light-mode-2 decoration-wavy hover:text-light-mode-2 hover:underline dark:decoration-dark-mode-4 dark:hover:text-dark-mode-4"
                   >
                     Vercel
                   </a>
