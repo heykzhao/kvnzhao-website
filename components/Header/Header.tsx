@@ -42,7 +42,7 @@ const Header: NextPage<ChildProps> = ({
   }
 
   return (
-    <div className={darkMode ? "dark sticky top-0 z-50" : "sticky top-0 z-50"}>
+    <div className={darkMode ? "dark sticky top-0 z-40" : "sticky top-0 z-40"}>
       <div className="relative flex w-full justify-center bg-light-mode-4 dark:bg-dark-mode-4">
         <div className="absolute inset-y-0 left-0 flex items-center">
           <HeaderDarkModeButton darkMode={darkMode} setDarkMode={setDarkMode} />
@@ -75,7 +75,7 @@ const Header: NextPage<ChildProps> = ({
             <HeaderDesktopMenu menuItems={menuItems} />
           </div>
           {/* Hamburger menu, hidden on md or larger */}
-          <div className="absolute inset-y-0 right-0 flex cursor-pointer items-center p-1 md:hidden">
+          <div className="absolute inset-y-0 right-0 flex cursor-pointer items-center pr-4 md:hidden">
             <button
               type="button"
               className="rounded-lg p-1 hover:bg-dark-mode-1/10"
