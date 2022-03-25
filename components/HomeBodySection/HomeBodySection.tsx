@@ -29,7 +29,7 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
               url={"https:/www.exxonmobil.com"}
             />
             {
-              ", where I lead and managed a $50M portfolio of projects for the North American and West African business units. I also supported a small team on a $60M expansion project for new ventures in Guyana."
+              ", where I led and managed a $50M portfolio of projects for the North American and West African business units. I also supported a small team on a $60M expansion project for new ventures in Guyana."
             }
           </div>
           <div className="pb-4">
