@@ -20,7 +20,7 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
           </div>
           <div className="pb-4">
             {"I was previously a "}
-            <span className="font-bold text-light-mode-1  decoration-light-mode-1 dark:text-dark-mode-4 dark:decoration-dark-mode-4">
+            <span className="font-bold text-black dark:text-white">
               Project Engineer
             </span>{" "}
             {" at "}
@@ -34,7 +34,7 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
           </div>
           <div className="pb-4">
             {"Afterwards, I worked on "}
-            <span className="font-bold text-light-mode-1  decoration-light-mode-1 dark:text-dark-mode-4 dark:decoration-dark-mode-4">
+            <span className="font-bold text-black dark:text-white">
               Special Projects & Operations
             </span>{" "}
             {" at "}
@@ -50,11 +50,11 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
           </div>
           <div className="pb-4">
             {"I also have a B.S. in "}
-            <span className="font-bold text-light-mode-1  decoration-light-mode-1 dark:text-dark-mode-4 dark:decoration-dark-mode-4">
+            <span className="font-bold text-black dark:text-white ">
               Chemical Engineering
             </span>
             {" and a Minor in "}
-            <span className="font-bold text-light-mode-1  decoration-light-mode-1 dark:text-dark-mode-4 dark:decoration-dark-mode-4">
+            <span className="font-bold text-black dark:text-white">
               Economics
             </span>
             {", from "}
