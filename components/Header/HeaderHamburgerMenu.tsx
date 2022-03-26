@@ -2,7 +2,7 @@ import React from "react";
 import type { NextPage } from "next";
 import Link from "next/link";
 
-import { MenuLinks } from "./Header";
+import { MenuLinks } from "./Menu";
 
 interface ChildProps {
   menuItems: MenuLinks[];
@@ -20,7 +20,7 @@ const HeaderHamburgerMenu: NextPage<ChildProps> = ({
           type="button"
           onClick={() => setHamburgerOpen(false)}
           key={item.title}
-          className="cursor-pointer pb-10 text-3xl font-black text-light-mode-1 hover:underline hover:decoration-wavy dark:text-dark-mode-1 md:hidden"
+          className="cursor-pointer pb-10 text-3xl font-black text-light-mode-1 hover:underline hover:decoration-wavy dark:text-dark-mode-1 lg:hidden"
         >
           {item.title}
         </button>
@@ -28,7 +28,7 @@ const HeaderHamburgerMenu: NextPage<ChildProps> = ({
     } else {
       return (
         <Link href={item.path} key={item.title}>
-          <a className="cursor-pointer pb-10 text-3xl font-black text-light-mode-1 hover:underline hover:decoration-wavy dark:text-dark-mode-1 md:hidden">
+          <a className="cursor-pointer pb-10 text-3xl font-black text-light-mode-1 hover:underline hover:decoration-wavy dark:text-dark-mode-1 lg:hidden">
             {item.title}
           </a>
         </Link>
@@ -37,7 +37,7 @@ const HeaderHamburgerMenu: NextPage<ChildProps> = ({
   });
 
   return (
-    <div className="z-50 flex h-full w-full flex-col items-center overflow-hidden overscroll-none bg-light-mode-4 pt-10 dark:bg-dark-mode-4 md:hidden">
+    <div className=" z-50 flex h-full w-full flex-col items-center overflow-hidden overscroll-none border-b-8 border-light-mode-1 bg-light-mode-4 pt-10 dark:border-none dark:bg-dark-mode-4 lg:hidden">
       {menuHamburgerLinks}
     </div>
   );

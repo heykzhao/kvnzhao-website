@@ -8,6 +8,9 @@ import HeaderDarkModeButton from "./HeaderDarkModeButton";
 import HeaderHamburgerMenu from "./HeaderHamburgerMenu";
 import HeaderDesktopMenu from "./HeaderDesktopMenu";
 
+// Data
+import { menuItems } from "./Menu";
+
 // Icons
 import { MenuAlt3Icon } from "@heroicons/react/solid";
 import { XIcon } from "@heroicons/react/solid";
@@ -21,21 +24,11 @@ interface ChildProps {
   setDarkMode: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-export interface MenuLinks {
-  title: string;
-  path: string;
-}
-
 const Header: NextPage<ChildProps> = ({
   darkMode,
   setDarkMode,
 }: ChildProps) => {
   const [hamburgerOpen, setHamburgerOpen] = useState<boolean>(false);
-
-  const menuItems: MenuLinks[] = [
-    { title: "Home", path: "/" },
-    { title: "Contact", path: "/contact" },
-  ];
 
   function handleHamburgerClick() {
     setHamburgerOpen((prevValue) => !prevValue);
@@ -71,11 +64,11 @@ const Header: NextPage<ChildProps> = ({
           </Link>
         </div>
         <div>
-          <div className="absolute inset-y-0 right-0 hidden items-center p-3 md:flex">
+          <div className="absolute inset-y-0 right-0 hidden items-center p-3 lg:flex">
             <HeaderDesktopMenu menuItems={menuItems} />
           </div>
           {/* Hamburger menu, hidden on md or larger */}
-          <div className="absolute inset-y-0 right-0 flex cursor-pointer items-center pr-4 md:hidden">
+          <div className="absolute inset-y-0 right-0 flex cursor-pointer items-center pr-4 lg:hidden">
             <button
               type="button"
               className="rounded-lg p-1 hover:bg-dark-mode-1/10"
