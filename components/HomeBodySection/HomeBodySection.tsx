@@ -26,7 +26,7 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
             {" at "}
             <HomeBodyLink
               title={"ExxonMobil"}
-              url={"https:/www.exxonmobil.com"}
+              url={"https://www.exxonmobil.com"}
             />
             {
               ", where I led and managed a $50M portfolio of projects for the North American and West African business units. I also supported a small team on a $60M expansion project for new ventures in Guyana."
@@ -38,7 +38,7 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
               Special Projects & Operations
             </span>{" "}
             {" at "}
-            <HomeBodyLink title={"Sprinly"} url={"https:/www.sprinly.com"} />
+            <HomeBodyLink title={"Sprinly"} url={"https://www.sprinly.com"} />
             {
               ", a fast growing vegan meal delivery startup based in Clevealnd. I wore many hats here, including leading the company's site platform from WordPress to Shopify, developing and integrating key processes to ensure continuity of operations during this time, and supporting the co-founders on key growth projects. "
             }
@@ -60,7 +60,7 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
             {", from "}
             <HomeBodyLink
               title={"Northwestern University"}
-              url={"https:/www.northwestern.edu"}
+              url={"https://www.northwestern.edu"}
             />
             {". "}
           </div>
