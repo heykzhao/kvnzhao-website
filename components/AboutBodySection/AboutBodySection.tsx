@@ -216,7 +216,7 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
             <div>
               <p className="pb-4">
                 {
-                  "Some acknowledgements for individuals that made my career better..."
+                  "Some acknowledgements for individuals who have made an impact on my career..."
                 }
               </p>
               <ul className="list-outside list-disc pl-10">
@@ -224,6 +224,12 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
                   <span className="font-bold">Professor SonBinh Nguyen</span>
                   {
                     ", who took a chance on me and opened the door to all my future opportunities. "
+                  }
+                </li>
+                <li>
+                  <span className="font-bold">Professor Gregory Maher</span>
+                  {
+                    ", who was a practical teacher both in and out of the classroom. "
                   }
                 </li>
                 <li>
