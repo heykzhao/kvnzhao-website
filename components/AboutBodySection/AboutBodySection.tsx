@@ -237,8 +237,18 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
                   }
                 </li>
                 <li>
+                  <span className="font-bold">Una Dowey</span>
+                  {", who was just an absolute boss in any room she was in. "}
+                </li>
+                <li>
                   <span className="font-bold">Zhenyan Hua</span>
                   {", who helped me have fun at work. "}
+                </li>
+                <li>
+                  <span className="font-bold">Mary McCann</span>
+                  {
+                    ", who showed me the tenaciousness it takes to build something from the ground up. "
+                  }
                 </li>
               </ul>
             </div>
