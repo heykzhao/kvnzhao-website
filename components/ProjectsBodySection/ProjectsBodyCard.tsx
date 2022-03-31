@@ -62,7 +62,7 @@ const ProjectsBodyCard: NextPage<ChildProps> = ({
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="cursor-pointer rounded-xl border-2 border-light-mode-1 bg-light-mode-1 px-3 py-1 text-sm font-bold text-white transition-all duration-700 ease-in-out hover:border-black hover:bg-black dark:border-dark-mode-4 dark:bg-dark-mode-4 dark:text-black hover:dark:border-white hover:dark:bg-white"
+                  className="cursor-pointer rounded-xl border-2 border-light-mode-1 bg-light-mode-1 px-3 py-1 text-sm font-bold text-white hover:border-black hover:bg-black dark:border-dark-mode-4 dark:bg-dark-mode-4 dark:text-black hover:dark:border-white hover:dark:bg-white"
                 >
                   Live Demo
                 </a>
@@ -73,7 +73,7 @@ const ProjectsBodyCard: NextPage<ChildProps> = ({
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="cursor-pointer rounded-xl border-2 border-light-mode-5 bg-light-mode-4 px-3 py-1 text-sm font-bold transition-all duration-700 ease-in-out hover:bg-light-mode-5 dark:border-dark-mode-5 dark:bg-dark-mode-2 hover:dark:bg-dark-mode-5"
+                  className="cursor-pointer rounded-xl border-2 border-light-mode-5 bg-light-mode-4 px-3 py-1 text-sm font-bold hover:bg-light-mode-5 dark:border-dark-mode-5 dark:bg-dark-mode-2 hover:dark:bg-dark-mode-5"
                 >
                   View Code
                 </a>
