@@ -9,7 +9,7 @@ interface ChildProps {
 const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
   return (
     <div className={darkMode ? "dark" : ""}>
-      <div className=" flex flex-col items-center bg-light-mode-1 p-20 text-white dark:bg-dark-mode-1">
+      <div className=" flex flex-col items-center bg-light-mode-1 p-12 text-white dark:bg-dark-mode-1">
         <h1 className="text-center text-3xl font-black uppercase sm:text-4xl">
           About
         </h1>
