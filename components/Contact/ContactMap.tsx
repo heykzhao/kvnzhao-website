@@ -21,7 +21,6 @@ const ContactLinks: NextPage = () => {
                   src={ClevelandMap}
                   alt="Map of Cleveland with location pin"
                   layout="responsive"
-                  priority
                 />
               </div>
               <div className="absolute top-[48%] left-[46%] animate-bounce">
