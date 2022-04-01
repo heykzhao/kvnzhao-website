@@ -40,7 +40,7 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
             {" at "}
             <HomeBodyLink title={"Sprinly"} url={"https://www.sprinly.com"} />
             {
-              ", a fast growing vegan meal delivery startup based in Clevealnd. I wore many hats here, including leading the company's site platform from WordPress to Shopify, developing and integrating key processes to ensure continuity of operations during this time, and supporting the co-founders on key growth projects. "
+              ", a fast growing vegan meal delivery startup based in Cleveland. I wore many hats here, including leading the company's site platform from WordPress to Shopify, developing and integrating key processes to ensure continuity of operations during this time, and supporting the co-founders on key growth projects. "
             }
           </div>
           <div className="pb-4">
