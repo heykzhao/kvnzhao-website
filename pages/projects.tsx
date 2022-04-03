@@ -63,12 +63,14 @@ export async function getStaticProps() {
       props: {
         projects,
       },
+      revalidate: 60,
     };
   } catch (error) {
     console.log(error);
   }
   return {
     props: {},
+    revalidate: 60,
   };
 }
 
