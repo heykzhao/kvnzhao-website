@@ -3,7 +3,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["media.graphcms.com"],
+    domains: ["media.graphcms.com", "media.graphassets.com"],
   },
   async redirects() {
     return [
