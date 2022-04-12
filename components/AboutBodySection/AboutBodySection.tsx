@@ -201,7 +201,7 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
               </ol>
               <p className="pb-3">
                 {
-                  "Now, I'm looking for opportunities that can leverage my previous Projects & Operations expertise, with my newfound knowledge in Software, to bring value in my next role. "
+                  "Now, I'm looking for opportunities that can leverage my previous Projects & Operations expertise, with my knowledge in Software, to bring value in my next role. "
                 }
               </p>
             </div>

@@ -39,18 +39,12 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
             in...
             <br />
             <div className="pt-3 pb-3">
-              📝{"  "}
               <span className="underline decoration-light-mode-4 decoration-solid dark:decoration-dark-mode-4">
-                Project Management
-              </span>{" "}
-              <span className="hidden lg:inline">and</span>
-              <br />
-              <span className="lg:hidden">
-                and <br />
+                Technical Project Management
               </span>
-              🌐{"  "}
+              <br></br>
               <span className="underline decoration-light-mode-4 decoration-solid dark:decoration-dark-mode-4">
-                Web Development
+                with an emphasis on web technologies.
               </span>
             </div>
           </h3>
