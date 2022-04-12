@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import HomeBodyLink from "./HomeBodyLink";
+import HomeBodyButton from "./HomeBodyButton";
 
 interface ChildProps {
   darkMode: boolean;
@@ -8,7 +9,7 @@ interface ChildProps {
 const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
   return (
     <div className={darkMode ? "dark" : ""}>
-      <div className="flex justify-center bg-light-mode-4 text-black dark:bg-dark-mode-2 dark:text-white">
+      <div className="flex flex-col items-center bg-light-mode-4 text-black dark:bg-dark-mode-2 dark:text-white">
         <div className="flex max-w-screen-md flex-col p-10 text-lg font-light">
           <div className="pb-5 text-center text-3xl font-black uppercase text-light-mode-1 dark:text-white sm:text-4xl">
             About Me
@@ -45,11 +46,11 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
           </div>
           <div className="pb-4">
             {
-              "More recently, I've had the privilege of taking an extended break to travel, rest, and dive deeper into some personal passions, including web development."
+              "In my spare time, I also am deeply fascinated by the technologies that powers the web, and enjoy tinkering around with code to make fun things."
             }
           </div>
           <div className="pb-4">
-            {"I also have a B.S. in "}
+            {"I have a B.S. in "}
             <span className="font-bold text-black dark:text-white ">
               Chemical Engineering
             </span>
@@ -66,10 +67,11 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
           </div>
           <div className="">
             {
-              "I hope to leverage my previous Projects & Operations expertise, with my newfound knowledge in Software, to bring value in my next role."
+              "I hope to leverage my previous Projects & Operations expertise, with my knowledge in Software, to bring value in my next role."
             }
           </div>
         </div>
+        <HomeBodyButton title="Resume" url="/Zhao, Kevin_Resume.pdf" />
       </div>
     </div>
   );
