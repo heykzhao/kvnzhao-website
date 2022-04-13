@@ -22,11 +22,11 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
                 {"I was born in "}
                 <span className="font-bold">Edison, New Jersey</span>
                 {
-                  " - where my parents got their start in the US. We didn't stay long, moving to "
+                  " - where my parents got their start in the US. We didn't stay long, soon moving to "
                 }
                 <span className="font-bold">Beijing, China</span>
                 {
-                  " soon after for my parents' jobs. I'd stay and grow up here until I left for college. "
+                  " for my parents' jobs. I'd stay and grow up here until I left for college. "
                 }
               </p>
               <p className="pb-3">
@@ -85,7 +85,7 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
                 {" as a "}
                 <span className="font-bold">Project Engineer</span>
                 {
-                  ". Here, I spent most of my time in the Brownfield Projects group, where I'd manage smaller projects for the company's North American and West African business units. Some of these projects included..."
+                  ". Here, I would spend most of my time in the Brownfield Projects group, where I'd manage smaller projects for the company's North American and West African business units. Some of these projects included..."
                 }
               </p>
 
@@ -109,7 +109,7 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
                   }
                 </li>
                 <li>
-                  <span className="font-bold">$30M</span>
+                  <span className="font-bold">$20M</span>
                   {
                     " subsea equipment installation campaign in Santa Barbara, CA. Responsible for developing business case, project objects & strategies, and putting together funding request to begin concept selection. "
                   }
@@ -129,17 +129,17 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
               <ul className="list-outside list-disc pl-10 pb-3">
                 <li>
                   {
-                    "Supporting senior leadership on implementation of a major re-org affect 2,000+ individuals"
+                    "Supporting senior leadership on implementation of a major re-org affect 2,000+ individuals."
                   }
                 </li>
                 <li>
                   {
-                    "Coordinating the onboarding and assimilation of a class of 14 new hires for the company's engineer training program"
+                    "Coordinating the onboarding and assimilation of a class of 14 new hires for the company's engineer training program."
                   }
                 </li>
                 <li>
                   {
-                    "Performing an audit and ensuring project controls protocols are followed"
+                    "Performing an audit and ensuring project controls protocols are followed in the Projects organization."
                   }
                 </li>
               </ul>
@@ -151,7 +151,7 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
                 {", where she'd start attending medical school. "}
               </p>
               <p className="pb-3">
-                {"In Cleveland, I'd join "}
+                {"In Cleveland, I joined "}
                 <AboutBodyLinks title="Sprinly" url="https://www.sprinly.com" />
                 {
                   " a vegan meal delivery start-up, where I'd work on Special Projects & Operations in direct support of the company's co-founder and COO. As with being on any small team, I wore many hats. Some notable ones were..."
@@ -173,32 +173,12 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
                     "Overseeing and revamping our packaging and procurement process."
                   }
                 </li>
-                <li>
-                  {"Preparing materials used in fundraising and recruiment."}
-                </li>
               </ul>
               <p className="pb-3">
                 {
-                  "In the middle of 2021, after a year with Sprinly, I decided to take a career break. The reasons were three-fold, and managed to lineup really well in terms of timing. "
+                  "In the middle of 2021, after a year with Sprinly, I decided to take a career break to focus on family and upskilling myself in the software space. "
                 }
               </p>
-              <ol className="list-outside list-decimal pl-10 pb-3">
-                <li>
-                  {
-                    "My sister, who was still in Beijing with my parents at the time and attending her freshman year of college remotely due to the pandemic, finally had the opportunity to come back to campus. She'd be in Chicago, and I wanted to be there for her so she can get adjusted and have a support system nearby for her first few months here. "
-                  }
-                </li>
-                <li>
-                  {
-                    "My significant other had just finished her first year of medical school and was entering summer break. It'd be her one true break in the long journey of medicine, and I wanted to make sure I had the time and flexibility to travel the world and spend time with her. "
-                  }
-                </li>
-                <li>
-                  {
-                    "My recent work experiences have led to a deep interest in software and web development. I wanted to spend dedicated time to dive deep and upskill myself into this world. "
-                  }
-                </li>
-              </ol>
               <p className="pb-3">
                 {
                   "Now, I'm looking for opportunities that can leverage my previous Projects & Operations expertise, with my knowledge in Software, to bring value in my next role. "
@@ -206,7 +186,7 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
               </p>
             </div>
           </div>
-          <div className="pb-5">
+          {/* <div className="pb-5">
             <h2
               id="acknowledgements"
               className=" mt-[-70px] pt-[70px] pb-3 text-left text-2xl font-black uppercase text-light-mode-1 dark:text-white sm:text-3xl"
@@ -258,7 +238,7 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
           <div className="pb-5">
             <h2
               id="about-this-site"

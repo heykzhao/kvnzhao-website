@@ -16,11 +16,10 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
         <p className="pt-2 text-center text-xl sm:text-2xl">
           {"A long bio of "}
           <AboutHeroLink title={"what I've been up to"} url={"#timeline"} />
-          {", some "}
-          <AboutHeroLink title={"acknowledgements"} url={"#acknowledgements"} />
-          {", and this "}
+          {/* {", some "}
+          <AboutHeroLink title={"acknowledgements"} url={"#acknowledgements"} /> */}
+          {" and some details on this "}
           <AboutHeroLink title={"site"} url={"#about-this-site"} />
-          {". Content below is ever-evolving. "}
         </p>
       </div>
     </div>
