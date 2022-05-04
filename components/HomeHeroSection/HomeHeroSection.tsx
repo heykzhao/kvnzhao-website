@@ -31,23 +31,7 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
               .
             </span>
           </h1>
-          <h3 className="pt-3 pb-4 text-2xl font-bold">
-            I&apos;m currently looking for{" "}
-            <span className="text-light-mode-4 dark:text-dark-mode-4">
-              remote opportunities
-            </span>{" "}
-            in...
-            <br />
-            <div className="pt-3 pb-3">
-              <span className="underline decoration-light-mode-4 decoration-solid dark:decoration-dark-mode-4">
-                Technical Project Management
-              </span>
-              <br></br>
-              <span className="underline decoration-light-mode-4 decoration-solid dark:decoration-dark-mode-4">
-                with an emphasis on web technologies.
-              </span>
-            </div>
-          </h3>
+          {/* <h3 className="pt-3 pb-4 text-2xl font-bold"></h3> */}
         </div>
         <div className="hidden items-center justify-center lg:flex">
           <div className="h-64 w-64">

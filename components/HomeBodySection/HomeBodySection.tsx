@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import HomeBodyLink from "./HomeBodyLink";
-import HomeBodyButton from "./HomeBodyButton";
 
 interface ChildProps {
   darkMode: boolean;
@@ -65,13 +64,7 @@ const HeroSection: NextPage<ChildProps> = ({ darkMode }: ChildProps) => {
             />
             {". "}
           </div>
-          <div className="">
-            {
-              "I hope to leverage my previous Projects & Operations expertise, with my knowledge in Software, to bring value in my next role."
-            }
-          </div>
         </div>
-        <HomeBodyButton title="Resume" url="/Zhao, Kevin_Resume.pdf" />
       </div>
     </div>
   );
